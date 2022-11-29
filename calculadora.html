@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div>
+		<select id="opciones">
+			<option selected="selected"><b>Skins</b></option>
+			<option>Clásica</option>
+			<option>Clásica roja</option>
+			<option>Azul</option>
+			<option>Naranja</option>
+			<option>Verde</option>
+			<option>Rosa</option>
+		</select>
+	</div>
+
+	<div id="calculadora"></div>
+	<input type="text" name="resultado" id="resultado" placeholder="0">
+	
+	<div id="numeros">
+		<table id="tabla">
+
+			<tr>
+				<td><button name="num" id="siete" class="color">7</button></td>
+				<td><button name="num" id="ocho" class="color">8</button></td>
+				<td><button name="num" id="nueve" class="color">9</button></td>
+				<td><button name="operacion" id="porcentaje" class="color">%</button></td>
+			</tr>
+			<tr>
+				<td><button name="num" id="cuatro" class="color">4</button></td>
+				<td><button name="num" id="cinco" class="color">5</button></td>
+				<td><button name="num" id="seis" class="color">6</button></td>
+				<td><button name="operacion" id="dividir" class="color">/</button></td>
+			</tr>
+			<tr>
+				<td><button name="num" id="uno" class="color">1</button></td>
+				<td><button name="num" id="dos" class="color">2</button></td>
+				<td><button name="num" id="tres" class="color">3</button></td>
+				<td><button name="operacion" id="multiplicar" class="color">*</button></td>
+			</tr>
+			<tr>
+				<td><button name="num" id="cero" class="color" >0</button></td>
+				<td><button name="num" id="punto" class="color" >.</button></td>
+				<td><button name="operacion"  id="restar"class="color" >-</button></td>
+				<td><button name="operacion" id="sumar" class="color">+</button></td>
+			</tr>
+			<tr>
+				<td><button name="borrar" id="borrar" class="color">C</button></td>
+				<td><button name="signo" id="signo" class="color" >-/+</button></td>
+				<td><button name="igual" id="igual" class="color" >=</button></td>
+				<td><tr></tr></td>
+			</tr>
+		</table>
+	</div>
+</body>
+
+<script src="js.js"></script>
+
+</html>
+
+
